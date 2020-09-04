@@ -11,6 +11,20 @@ public class Article {
     public String url;
 
     @Override
+    public String toString() {
+        return "Article{" +
+                "author='" + author + '\'' +
+                ", content='" + content + '\'' +
+                ", description='" + description + '\'' +
+                ", publishedAt='" + publishedAt + '\'' +
+                ", title='" + title + '\'' +
+                ", url='" + url + '\'' +
+                ", urlToImage='" + urlToImage + '\'' +
+                ", favorite=" + favorite +
+                '}';
+    }
+
+    @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
