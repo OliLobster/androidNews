@@ -8,6 +8,17 @@ public class NewsResponse {
     public List<Article> articles;
 
     @Override
+    public String toString() {
+        return "NewsResponse{" +
+                "totalResults=" + totalResults +
+                ", articles=" + articles +
+                ", code='" + code + '\'' +
+                ", message='" + message + '\'' +
+                ", status='" + status + '\'' +
+                '}';
+    }
+
+    @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
