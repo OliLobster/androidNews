@@ -83,3 +83,4 @@ lint/generated/
 lint/outputs/
 lint/tmp/
 # lint/reports/
+TinNewsAndroid/app/src/main/java/com/laioffer/tinnews/network/RetrofitClient.java
